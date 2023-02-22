@@ -11,12 +11,13 @@
       let login = prompt("Hello, please tell me your login:");
       if (login == "Admin") {
         let password = prompt("Type your password:");
-        if (password == TheMaster) {
+        if (password == "TheMaster") {
           alert("Welcome");
-      } else if (password === null){
-        alert("Canceled");
-      } else{
-        alert("Wrong password")
+        } else if (password === null) {
+          alert("Canceled");
+        } else {
+          alert("Wrong password");
+        }
       }
     </script>
   </body>
