@@ -13,12 +13,12 @@
         let password = prompt("Type your password:");
         if (password == "TheMaster") {
           alert("Welcome");
-        } else if (password === null) {
+        } else if (password === null || password === "") {
           alert("Canceled");
         } else {
           alert("Wrong password");
         }
-      } else if (login === null) {
+      } else if (login === "" || login === null) {
         alert("Canceled");
       } else {
         alert("I don`t know you");
